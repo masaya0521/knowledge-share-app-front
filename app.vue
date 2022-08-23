@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <button class="w-96">
-      hello world
-    </button>
+  <div
+    class="flex justify-center m-32"
+  >
+    hello world
   </div>
 </template>
