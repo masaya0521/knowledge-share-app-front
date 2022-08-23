@@ -8,11 +8,15 @@
   "extends": [
     "plugin:vue/vue3-recommended",
     "eslint:recommended",
-    "@vue/eslint-config-prettier"
+    "@vue/eslint-config-prettier",
+    "prettier",
+    "prettier/vue"
   ],
   "parserOptions": {
     "ecmaVersion": 2021
   },
   "plugins": [],
-  "rules": {}
+  "rules": {
+    "vue/multi-word-component-names": "off"
+  }
 }
