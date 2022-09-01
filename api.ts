@@ -1,5 +1,7 @@
-import { Content } from '~/types/Content';
-import { User } from '~/types/User';
+//import { Content } from '~/type';
+//import { User } from '~/types/User';
+
+import { Content } from '~/composables/content';
 
 export const content: Array<Content> = [
   {

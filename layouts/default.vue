@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header>情報共有サイト</header>
+    <header class="m-10">情報共有サイト</header>
     <slot />
   </div>
 </template>
